@@ -52,7 +52,7 @@ Ejemplo:
 
 # Componente 'Calendar'
 
-Muestra un calendario con la fecha actual por defecto, al detectar un cambio emite un el mensaje 'Fecha cambiada' como evento.
+Muestra un calendario con la fecha actual por defecto, al detectar un cambio emite el mensaje 'Fecha cambiada' como evento.
 
 Para usar el componente `calendar`, se debe pasar el valor `calendar` como propiedad de `<lib-test></lib-test>`.
 
