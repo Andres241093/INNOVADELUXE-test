@@ -1,5 +1,7 @@
 <h1>Prueba INNOVADELUXE</h1>
 <hr>
-<app-timer [type]="'clock'"></app-timer>
-<app-stepper></app-stepper>
-<app-father-calendar></app-father-calendar>
+<lib-test [component]="'timer'" [typeTimer]="'clock'"></lib-test>
+<lib-test [component]="'timer'" [typeTimer]="'chronometer'"></lib-test>
+<lib-test [component]="'timer'" [typeTimer]="'countdown'"></lib-test>
+<lib-test [component]="'stepper'"></lib-test>
+<lib-test [component]="'calendar'"></lib-test>

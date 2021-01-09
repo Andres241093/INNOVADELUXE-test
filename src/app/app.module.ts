@@ -1,20 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
  
 import { AppComponent } from './app.component';
-import { WizardModule } from './modules/wizard/wizard.module';
-import { ClockModule } from './modules/clock/clock.module';
-import { CalendarModule } from './modules/calendar/calendar.module';
+
+import { TestModule } from 'test';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     BrowserModule,
-    WizardModule,
-    ClockModule,
-    CalendarModule
+    TestModule
   ],
   providers: [],
   bootstrap: [AppComponent]
