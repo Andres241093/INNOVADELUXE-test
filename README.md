@@ -8,6 +8,21 @@
 4. Ejecutar el servidor. Comando: `ng serve`.
 5. Abrir el siguiente enlace en el navegador: `http://localhost:4200`.
 
+## Uso del componente 'Timer'
+
+@Input() type: string
+
+valores que puede tomar el input: `clock`,`chronometer` y `countdown`
+
+1. Clock: Muestra la hora actual.
+2. Chronometer: Muestra un cronómetro con los botones 'Parar' y 'Reiniciar'.
+3. Countdown: Muestra una cuenta regresiva empezando desde 100 con los botones 'Parar' y 'Reiniciar'.
+
+## Uso de los otros componentes
+
+1. `<app-stepper></app-stepper>`: Muestra un stepper (Wizard) con los botones 'Anterior','Inicio','Siguiente' y 'Finalizar'.
+2. `<app-father-calendar></app-father-calendar>`: Muestra un calendario con la fecha actual por defecto, al detectar un cambio emite un evento al componente padre 'father-calendar'.
+
 ## Herramientas utilizadas
 
 1. Angular v11.0.7.
