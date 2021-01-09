@@ -6,11 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'clock-test';
-  event: string;
-
-  showEvent(mssg)
-  {
-  	this.event = mssg;
-  }
+  title = 'INNOVADELUXE-test';
 }

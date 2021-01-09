@@ -1,12 +1,12 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
-  selector: 'app-calendar',
-  templateUrl: './calendar.component.html',
-  styleUrls: ['./calendar.component.scss']
+  selector: 'app-son',
+  templateUrl: './son.component.html',
+  styleUrls: ['./son.component.scss']
 })
-export class CalendarComponent implements OnInit {
-
+export class SonComponent implements OnInit {
+	
 	@Output() message;
 
 	date: Date;
@@ -44,3 +44,4 @@ export class CalendarComponent implements OnInit {
   }
 
 }
+
