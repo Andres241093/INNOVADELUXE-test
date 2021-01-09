@@ -1,0 +1,5 @@
+<h1>Cronómetro</h1>
+<p>{{counter}}</p>
+<button *ngIf="!isPause" (click)="pause()">Parar</button>
+<button *ngIf="isPause" (click)="continue()">Continuar</button>
+<button (click)="restart()">Reiniciar</button>

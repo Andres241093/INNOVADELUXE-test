@@ -1,0 +1,27 @@
+<div style="display: flex;flex-direction: column;">
+	<h1>Stepper (Wizard)</h1>
+	<ng-container [ngSwitch]="getCurrentIndex()">
+		<ng-container *ngSwitchCase="'1'">
+			<app-step>Paso 1 de {{stepIndex.length}}</app-step>
+		</ng-container>
+		<ng-container *ngSwitchCase="'2'">
+			<app-step>Paso 2 de {{stepIndex.length}}</app-step>
+		</ng-container>
+		<ng-container *ngSwitchCase="'3'">
+			<app-step>Paso 3 de {{stepIndex.length}}</app-step>
+		</ng-container>
+		<ng-container *ngSwitchCase="'4'">
+			<app-step>Paso 4 de {{stepIndex.length}}</app-step>
+		</ng-container>
+		<ng-container *ngSwitchCase="'5'">
+			<app-step>Paso 5 de {{stepIndex.length}}</app-step>
+		</ng-container>
+	</ng-container>
+
+	<div style="margin-top: 10px;">	
+		<button *ngIf="showPrevButton" (click)="prevStep()">Anterior</button>
+		<button (click)="getBack()">Inicio</button>
+		<button (click)="nextStep()" *ngIf="!showFinishButton">Siguiente</button>
+		<button *ngIf="showFinishButton">Finalizar</button>
+	</div>
+</div>
