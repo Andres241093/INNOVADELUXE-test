@@ -44,8 +44,6 @@ Ejemplo:
 
 Muestra un stepper (Wizard) con los botones 'Anterior','Inicio','Siguiente' y 'Finalizar'
 
-Para usar el componente `stepper`, se debe pasar el valor `stepper` como propiedad de `<lib-test></lib-test>`.
-
 Ejemplo:
 
 `<lib-test [component]="'stepper'"></lib-test>`.
@@ -53,8 +51,6 @@ Ejemplo:
 ## Componente 'Calendar'
 
 Muestra un calendario con la fecha actual por defecto, al detectar un cambio emite el mensaje 'Fecha cambiada' como evento.
-
-Para usar el componente `calendar`, se debe pasar el valor `calendar` como propiedad de `<lib-test></lib-test>`.
 
 Ejemplo:
 
