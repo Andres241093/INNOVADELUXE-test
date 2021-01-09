@@ -1,6 +1,6 @@
 # Prueba INNOVADELUXE
 
-## Instrucciones
+## Instrucciones para desplegar el proyecto
 
 1. Clonar el proyecto, para ello usar el siguiente comando: `git clone https://github.com/Andres241093/INNOVADELUXE-test.git`.
 2. Dirigirse a la carpeta del proyecto. Comando: `cd INNOVADELUXE-test`.
@@ -18,7 +18,7 @@ valores que puede tomar el input: `clock`,`chronometer` y `countdown`
 2. Chronometer: Muestra un cronómetro con los botones 'Parar' y 'Reiniciar'.
 3. Countdown: Muestra una cuenta regresiva empezando desde 100 con los botones 'Parar' y 'Reiniciar'.
 
-## Uso de los otros componentes
+## Uso de otros componentes
 
 1. `<app-stepper></app-stepper>`: Muestra un stepper (Wizard) con los botones 'Anterior','Inicio','Siguiente' y 'Finalizar'.
 2. `<app-father-calendar></app-father-calendar>`: Muestra un calendario con la fecha actual por defecto, al detectar un cambio emite un evento al componente padre 'father-calendar'.
